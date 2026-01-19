@@ -123,6 +123,9 @@ if st.button("🔍 Classify", type="primary"):
             st.success("✅ This comment appears to be non-toxic.")
         else:
             st.error("⚠️ This comment contains toxic content.")
+        
+        # Show balloons animation after classification
+        st.balloons()
 
 # Footer
 st.sidebar.markdown("---")
